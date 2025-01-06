@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		263100372D2BE2AA00C51608 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 263100362D2BE29F00C51608 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2631001A2D2B175900C51608 /* VocabularyGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocabularyGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263100362D2BE29F00C51608 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		263100392D2BE2EE00C51608 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		2631003A2D2BE2EE00C51608 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +52,8 @@
 		263100112D2B175900C51608 = {
 			isa = PBXGroup;
 			children = (
+				263100382D2BE2BB00C51608 /* Screenshots */,
+				263100362D2BE29F00C51608 /* README.md */,
 				2631001C2D2B175900C51608 /* VocabularyGrid */,
 				2631001B2D2B175900C51608 /* Products */,
 			);
@@ -56,6 +65,15 @@
 				2631001A2D2B175900C51608 /* VocabularyGrid.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		263100382D2BE2BB00C51608 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				263100392D2BE2EE00C51608 /* 1.png */,
+				2631003A2D2BE2EE00C51608 /* 2.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263100372D2BE2AA00C51608 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
